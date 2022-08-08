@@ -3,6 +3,8 @@ package drivers;
 /* Appium версия для этого кода нужна - appiumVersion = "8.1.1", */
 
 import com.codeborne.selenide.WebDriverProvider;
+import config.CredentialsConfig;
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
@@ -13,18 +15,18 @@ import java.net.URL;
 
 
 public class BrowserstackMobileDriver implements WebDriverProvider {
+    CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class, System.getProperties());
 
     @Override
     public WebDriver createDriver(Capabilities capabilities) {
         MutableCapabilities mutableCapabilities = new MutableCapabilities();
         mutableCapabilities.merge(capabilities);
         // Set your access credentials
-        mutableCapabilities.setCapability("browserstack.user", "elenailikaeva_2A08zc");
-        mutableCapabilities.setCapability("browserstack.key", "ukqWNTigZAGsfBYTmp5q");
+        mutableCapabilities.setCapability("browserstack.user", config.login());
+        mutableCapabilities.setCapability("browserstack.key", config.password());
 
         // Set URL of the application under test
-       mutableCapabilities.setCapability("app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
-      //  mutableCapabilities.setCapability("app", "bs://0df192360300279371bd80e7d53ed9794aff9ae4");
+       mutableCapabilities.setCapability("app", config.app());
 
         // Specify device and os_version for testing
         mutableCapabilities.setCapability("device", "Google Pixel 3");
