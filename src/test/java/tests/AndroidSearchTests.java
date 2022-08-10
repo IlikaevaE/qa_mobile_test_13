@@ -13,7 +13,7 @@ public class AndroidSearchTests extends TestBase {
     @Tag("android")
     @Test
     void searchTestAppium() {
-       //    back();
+          back();
         //     switchTo().alert().accept();
         step("Type search", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/search_container")).click();
