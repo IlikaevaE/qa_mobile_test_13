@@ -15,7 +15,7 @@ public class AndroidSearchTests extends TestBase {
     @Tag("android")
     @Test
     void searchTestAppium() {
-       // back();
+          back();
         //     switchTo().alert().accept();
         step("Type search", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/search_container")).click();
@@ -28,18 +28,27 @@ public class AndroidSearchTests extends TestBase {
 
     @Tag("android")
     @Test
-    void gettingTest() {
-        // back();
-        step("Type search", () -> {
-            $(AppiumBy.id("org.wikipedia.alpha:id/view_announcement_action_negative")).click();
-
+    void checkSearchTabTest() {
+       back();
+        step("Click on search tab", () -> {
+            $(AppiumBy.id("org.wikipedia.alpha:id/nav_tab_search")).click();
         });
-        step("Checking the page", () -> {
-            $(AppiumBy.id("org.wikipedia.alpha:id/view_card_header_title")).shouldHave(Condition.text("Featured article"));
+        step("Check the opened page", () -> {
+            $(AppiumBy.id("org.wikipedia.alpha:id/history_title")).shouldHave(Condition.text("History"));
         });
     }
 
-
+    @Tag("android")
+    @Test
+    void checkSavedTabTest() {
+        back();
+        step("Click on search tab", () -> {
+            $(AppiumBy.id("org.wikipedia.alpha:id/nav_tab_reading_lists")).click();
+        });
+        step("Check the opened page", () -> {
+            $(AppiumBy.id("org.wikipedia.alpha:id/positiveButton")).shouldHave(Condition.text("LOG IN / JOIN WIKIPEDIA"));
+        });
+    }
 }
 
 
