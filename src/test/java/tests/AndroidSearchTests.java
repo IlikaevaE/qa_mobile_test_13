@@ -42,10 +42,10 @@ public class AndroidSearchTests extends TestBase {
     @Test
     void checkSavedTabTest() {
         back();
-        step("Click on search tab", () -> {
+        step("Click on saved tab", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/nav_tab_reading_lists")).click();
         });
-        step("Check the opened page", () -> {
+        step("Check the saved page", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/positiveButton")).shouldHave(Condition.text("LOG IN / JOIN WIKIPEDIA"));
         });
     }
