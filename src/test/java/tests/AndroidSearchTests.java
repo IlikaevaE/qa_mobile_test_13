@@ -3,6 +3,8 @@ package tests;
 import com.codeborne.selenide.Condition;
 import io.appium.java_client.AppiumBy;
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -14,6 +16,7 @@ public class AndroidSearchTests extends TestBase {
 
     @Tag("android")
     @Test
+    @Story("Checking search possibilities in wikipedia")
     void searchTestAppium() {
           back();
         //     switchTo().alert().accept();
@@ -28,6 +31,7 @@ public class AndroidSearchTests extends TestBase {
 
     @Tag("android")
     @Test
+    @Story("Checking tabs on the start page wikipedia")
     void checkSearchTabTest() {
        back();
         step("Click on search tab", () -> {
@@ -40,6 +44,7 @@ public class AndroidSearchTests extends TestBase {
 
     @Tag("android")
     @Test
+    @Story("Checking tabs on the start page wikipedia")
     void checkSavedTabTest() {
         back();
         step("Click on saved tab", () -> {
