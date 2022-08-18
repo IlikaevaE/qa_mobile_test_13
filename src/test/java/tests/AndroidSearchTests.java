@@ -13,10 +13,12 @@ import static com.codeborne.selenide.CollectionCondition.sizeGreaterThan;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
+
+
 public class AndroidSearchTests extends TestBase {
 
-    @Tag("android")
     @Test
+    @Tag("android")
     @Feature("Mobil testing")
     @Story("Checking search possibilities in wikipedia")
     void searchTestAppium() {
@@ -31,8 +33,8 @@ public class AndroidSearchTests extends TestBase {
                         .shouldHave(sizeGreaterThan(0)));
     }
 
-    @Tag("android")
     @Test
+    @Tag("android")
     @Feature("Mobil testing")
     @Story("Checking tabs on the start page wikipedia")
     void checkSearchTabTest() {
@@ -45,8 +47,8 @@ public class AndroidSearchTests extends TestBase {
         });
     }
 
-    @Tag("android")
     @Test
+    @Tag("android")
     @Feature("Mobil testing")
     @Story("Checking tabs on the start page wikipedia")
     void checkSavedTabTest() {
