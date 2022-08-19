@@ -1,6 +1,5 @@
 package drivers;
 
-/* Appium версия для этого кода нужна - appiumVersion = "8.1.1", */
 
 import com.codeborne.selenide.WebDriverProvider;
 import config.CredentialsConfig;

@@ -35,9 +35,7 @@ public class LocalMobileDriver implements WebDriverProvider {
         options.merge(capabilities);
         options.setAutomationName(AutomationName.ANDROID_UIAUTOMATOR2);
         options.setPlatformName(deviceConfig.platformName());
-        //    options.setDeviceName("RFCR90ZMNQP");
         options.setDeviceName(deviceConfig.deviceName());
-        //      options.setPlatformVersion("12.0");
         options.setPlatformVersion(deviceConfig.platformVersion());
         options.setApp(app.getAbsolutePath());
         options.setAppPackage(deviceConfig.appPackageName());

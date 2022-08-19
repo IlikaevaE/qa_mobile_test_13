@@ -35,9 +35,7 @@ static final RealMobileConfig config = ConfigFactory.create(RealMobileConfig.cla
         options.merge(capabilities);
         options.setAutomationName(AutomationName.ANDROID_UIAUTOMATOR2);
         options.setPlatformName(config.platformName());
-        //    options.setDeviceName("RFCR90ZMNQP");
         options.setDeviceName(config.deviceName());
-        //      options.setPlatformVersion("12.0");
         options.setPlatformVersion(config.platformVersion());
         options.setApp(app.getAbsolutePath());
         options.setAppPackage(config.appPackageName());
