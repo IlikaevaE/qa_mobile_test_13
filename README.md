@@ -16,7 +16,8 @@
 <img width="6%" title="Jira Cloud" src="images/logo/Jira.svg">
 <img width="6%" title="Telegram" src="images/logo/Telegram.svg">
 <img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
-<img width="6%" title="Browserstack" src="images/logo/browserstack.svg">
+<img width="6%" title="Browserstack" src="images/logo/Browserstack.svg">
+<img width="6%" title="Appium" src="images/logo/Appium.svg">
 </p>
 
 
