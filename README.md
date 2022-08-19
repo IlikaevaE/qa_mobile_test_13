@@ -1,7 +1,25 @@
-# Автоматизация тестирования приложений на Android: Wikipedia
+# Автоматизация тестирования приложений на Android:  <img width="6%" title="Android Studio" src="images/logo/Wikipedia.png"> Wikipedia
+> Википедия - общедоступная универсальная интернет-энциклопедия со свободным контентом. 
 
+# <a name="Содержание">Содержание:</a>
++ [Описание](#Описание)
++ [Используемые технологии](#Используемые технологии)
++ [Реализация проверок](#Реализация проверок)
++ [Запуск тестов](#Запуск тестов)
+  + [Запуск тестов локально из терминала](#Запуск тестов локально из терминала)
+  + [Запуск тестов из TestOps](#Запуск тестов из TestOps)
+  + [Файлы с параметрами](#Файлы с параметрами)
+  + [Запуск тестов из Jenkins](#Запуск тестов из Jenkins)
++ [Оповещение в Telegram](#Оповещение в Telegram)
++ [Отчет о результатах прохождения тестов в Allure Report](#Отчет о результатах прохождения тестов в Allure Report)
++ [Интеграция с Allure TestOps](#Интеграция с Allure TestOps)
+  + [Список тестовых случаев в проекте](#Список тестовых случаев в проекте)
+  + [Запуск Jenkins задач из TestOps](#Запуск Jenkins задач из TestOp)
+  + [Dashboards](#Dashboards)
++ [Интеграция с Jira](#Интеграция с Jira)
++ [Видео о прохождении тестов](#Видео о прохождении тестов)
 
-## Используемые технологии:
+## Используемые технологии
 
 <p align="center">
 <img width="6%" title="IntelliJ" src="images/logo/IntelliJ.svg">
@@ -18,6 +36,7 @@
 <img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
 <img width="6%" title="Browserstack" src="images/logo/Browserstack.svg">
 <img width="6%" title="Appium" src="images/logo/Appium.svg">
+<img width="6%" title="Android Studio" src="images/logo/AndroidStudio.svg">
 </p>
 
 
