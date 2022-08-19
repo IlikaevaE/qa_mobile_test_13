@@ -62,15 +62,39 @@ gradle clean android -DdeviceHost=real
 ```
 
 ## <a name="ФайлыСПараметрами">Файлы с параметрами</a>
-Browserstack параметры 
+Browserstack параметры (_browserstack.properties_)
 ```bash
 device_value=
 os_version=
 project_name=
 build_value=
-name_value=first_test
 bs_URL=
 ```
+> - _device_value_ - название устройства
+> - _os_version_ - версия андроида
+> - _project_name_ - название проекта 
+> - _build_value_ - название сборки
+> - _bs_URL_ - базовый URL Browserstack
+
+Emulation параметры (_emulation.properties_)
+```bash
+platform_name=
+device_name=
+platform_version=
+appPackageName=
+app_Activity=
+app_URL=
+app_path=
+appium_URL=
+```
+> - _platform_name_ - название платформы
+> - _device_name_ - название устройства
+> - _platform_version_ - версия андроида
+> - _appPackageName_ - название пакета тестируемого приложения на Android
+> - _app_Activity_ - Activity тестируемого приложения на Android
+> - _app_URL_ - URL расположения приложения (.apk)
+> - _app_path_ - путь расположения приложения (.apk) в Intellij Idea
+> - _appium_URL_ - локальный URL Appium 
 ## <a name="ЗапускТестовИзJenkins">Запуск тестов из Jenkins</a>
 
 
