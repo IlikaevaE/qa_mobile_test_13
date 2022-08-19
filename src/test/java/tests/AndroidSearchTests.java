@@ -14,16 +14,14 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 
-
 public class AndroidSearchTests extends TestBase {
 
     @Test
     @Tag("android")
-    @Feature("Mobil testing")
-    @Story("Checking search possibilities in wikipedia")
+    @Feature("Мобильное приложение Wikipedia")
+    @Story("Проверка  поиска в Wikipedia")
     void searchTestAppium() {
-          back();
-        //     switchTo().alert().accept();
+        back();
         step("Type search", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/search_container")).click();
             $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Appium");
@@ -35,10 +33,10 @@ public class AndroidSearchTests extends TestBase {
 
     @Test
     @Tag("android")
-    @Feature("Mobil testing")
-    @Story("Checking tabs on the start page wikipedia")
+    @Feature("Мобильное приложение Wikipedia")
+    @Story("Проверка вкладок на стартовой странице Wikipedia")
     void checkSearchTabTest() {
-       back();
+        back();
         step("Click on search tab", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/nav_tab_search")).click();
         });
@@ -49,8 +47,8 @@ public class AndroidSearchTests extends TestBase {
 
     @Test
     @Tag("android")
-    @Feature("Mobil testing")
-    @Story("Checking tabs on the start page wikipedia")
+    @Feature("Мобильное приложение Wikipedia")
+    @Story("Проверка вкладок на стартовой странице Wikipedia")
     void checkSavedTabTest() {
         back();
         step("Click on saved tab", () -> {
