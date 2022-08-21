@@ -93,7 +93,7 @@ clean android -DdeviceHost=${DEVICEHOST}
 
 # <a name="ОтчетОРезультатахПрохожденияТестовВAllureReport">Отчет о результатах прохождения тестов в Allure Report</a>
 <p  align="center">
-<img src="images/screens/AllureReport.PNG" alt="IDEARunConfigurations1" width="550">
+<img src="images/screens/AllureReport.png" alt="IDEARunConfigurations1" width="550">
 </p>
 
 <p  align="center">
