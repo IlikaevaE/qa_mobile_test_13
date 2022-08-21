@@ -39,7 +39,6 @@
 <img width="6%" title="Android Studio" src="images/logo/AndroidStudio.svg">
 </p>
 
-# <a name="РеализацияПроверок">Реализация Проверок</a>
 
 > Проверка  поиска в Wikipedia
 > 
@@ -63,38 +62,23 @@ gradle clean android -DdeviceHost=real
 
 ## <a name="ФайлыСПараметрами">Файлы с параметрами</a>
 Browserstack параметры (_browserstack.properties_)
-```bash
-device_value=
-os_version=
-project_name=
-build_value=
-bs_URL=
+```properties
+deviceName=Google Pixel 3
+platformVersion=9.0
+baseURL=http://hub.browserstack.com/wd/hub
 ```
-> - _device_value_ - название устройства
-> - _os_version_ - версия андроида
-> - _project_name_ - название проекта 
-> - _build_value_ - название сборки
-> - _bs_URL_ - базовый URL Browserstack
 
 Emulation параметры (_emulation.properties_)
-```bash
-platform_name=
-device_name=
-platform_version=
-appPackageName=
-app_Activity=
-app_URL=
-app_path=
-appium_URL=
+```properties
+deviceName=Pixel 4 API 30
+platformVersion=11.0
+baseURL=http://localhost:4723/wd/hub
 ```
-> - _platform_name_ - название платформы
-> - _device_name_ - название устройства
-> - _platform_version_ - версия андроида
-> - _appPackageName_ - название пакета тестируемого приложения на Android
-> - _app_Activity_ - Activity тестируемого приложения на Android
-> - _app_URL_ - URL расположения приложения (.apk)
-> - _app_path_ - путь расположения приложения (.apk) в Intellij Idea
-> - _appium_URL_ - локальный URL Appium 
+> - _deviceName_ - название устройства
+> - _platformVersion_ - версия андроида
+> - _baseURL_ - базовый URL Browserstack
+>
+
 ## <a name="ЗапускТестовИзJenkins">Запуск тестов из Jenkins</a>
 
 

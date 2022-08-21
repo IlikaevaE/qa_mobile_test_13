@@ -11,6 +11,7 @@ public interface DeviceConfig extends Config {
 
     String deviceName();
     String platformVersion();
-    String baseURL();
+ //   String baseURL();
+    String remoteDriver();
 
 }
