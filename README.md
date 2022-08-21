@@ -92,16 +92,42 @@ clean android -DdeviceHost=${DEVICEHOST}
 </p>
 
 # <a name="ОтчетОРезультатахПрохожденияТестовВAllureReport">Отчет о результатах прохождения тестов в Allure Report</a>
+<p  align="center">
+<img src="images/screens/AllureReport.PNG" alt="IDEARunConfigurations1" width="550">
+</p>
+
+<p  align="center">
+<img src="images/screens/Allure_Report_TestCases.PNG" alt="IDEARunConfigurations1" width="550">
+</p>
+
+<p  align="center">
+<img src="images/screens/Allure_Graphs.PNG" alt="IDEARunConfigurations1" width="550">
+</p>
 
 # <a name="ИнтеграцияСAllureTestOps">Интеграция с Allure TestOps</a>
+Allure TestOps предоставляет возможность командам создавать тестовую документацию, хранить, 
+запускать и анализировать ручные и автоматические тесты в одном месте и в режиме реального времени.
 
 ## <a name="СписокТестовыхСлучаевВПроекте">Список тестовых случаев в проекте</a>
+
+<p  align="center">
+<img src="images/screens/Allure_TestCases.PNG" alt="IDEARunConfigurations1" width="550">
+</p>
+
 ## <a name="ЗапускJenkinsЗадачИзTestOps">Запуск Jenkins задач из TestOps</a>
+В Allure TestOps можно настроить запуск автотестов из Jenkins
+<p  align="center">
+<img src="images/screens/JobConfigureTestOps.PNG" alt="IDEARunConfigurations1" width="550">
+</p>
+
 ## <a name="Dashboards">Dashboards</a>
 
+<p  align="center">
+<img src="images/screens/DashboardMobile.PNG" alt="IDEARunConfigurations1" width="550">
+</p>
 # <a name="ИнтеграцияСJira">Интеграция с Jira</a>
 
 # <a name="ВидеоОПрохожденииТестов">Видео о прохождении тестов</a>
 <p align="center">
-<img title="Video Result" src="images/video/mobileVideoResult.gif" width="300" height="300"  alt="video">
+<img title="Video Result" src="images/video/MobileVideo.gif" width="300" height="300"  alt="video">
 </p>
