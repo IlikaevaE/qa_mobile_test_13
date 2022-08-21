@@ -96,13 +96,24 @@ clean android -DdeviceHost=${DEVICEHOST}
 <p  align="center">
 <img src="images/screens/AllureReport.PNG" alt="AllureReport" width="800">
 </p>
-Список перечисления тестов с описанием шагов
+Тестовые артефакты: 
+
+> - Набор тест кейсов 
+> - Screenshot
+> - Page Source
+> - Video
+
+
 <p  align="center">
 <img src="images/screens/Allure_Report_TestCases.PNG" alt="AllureReportTestCases" width="1050">
 </p>
 
 <p  align="center">
-<img src="images/screens/Allure_Graphs.PNG" alt="AllureGraphs" width="1050">
+<img src="images/screens/Allure_Graphs1.PNG" alt="AllureGraphs" width="1050">
+</p>
+
+<p  align="center">
+<img src="images/screens/Allure_Graphs2.PNG" alt="AllureGraphs" width="1050">
 </p>
 
 # <a name="ИнтеграцияСAllureTestOps">Интеграция с Allure TestOps</a>
