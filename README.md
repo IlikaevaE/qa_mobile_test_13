@@ -108,6 +108,16 @@ clean android -DdeviceHost=${DEVICEHOST}
 <img src="images/screens/Allure_Report_TestCases.PNG" alt="AllureReportTestCases" width="1050">
 </p>
 
+Отслеживание хода выполнения тестирования в Allure Report: 
+
+> - STATUS
+> - SEVERITY
+> - DURATION
+> - DURATION TREND
+> - RETRIES TREND
+> - CATEGORIES TREND
+> - TREND
+
 <p  align="center">
 <img src="images/screens/Allure_Graphs1.PNG" alt="AllureGraphs" width="1050">
 </p>
@@ -133,10 +143,11 @@ Allure TestOps предоставляет возможность команда�
 </p>
 
 ## <a name="Dashboards">Dashboards</a>
-
+Отслеживание хода выполнения тестирования в Allure TestOps:
 <p  align="center">
 <img src="images/screens/DashboardMobile.PNG" alt="DashboardMobileTestOps" width="1050">
 </p>
+
 # <a name="ИнтеграцияСJira">Интеграция с Jira</a>
 
 # <a name="ВидеоОПрохожденииТестов">Видео о прохождении тестов</a>
