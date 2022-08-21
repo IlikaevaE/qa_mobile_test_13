@@ -86,7 +86,7 @@ baseURL=http://localhost:4723/wd/hub
 clean android -DdeviceHost=${DEVICEHOST}
 ```
 # <a name="ОповещениеВTelegram">Оповещение в Telegram</a>
-
+Отправка уведомлений о результатах прохождения тестов осуществляется с помощью Telegram бота. 
 <p  align="center">
 <img src="images/screens/Bot_mobile.PNG" alt="IDEARunConfigurations1" width="550">
 </p>
