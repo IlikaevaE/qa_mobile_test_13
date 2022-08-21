@@ -13,7 +13,7 @@
 + [Отчет о результатах прохождения тестов в Allure Report](#ОтчетОРезультатахПрохожденияТестовВAllureReport)
 + [Интеграция с Allure TestOps](#ИнтеграцияСAllureTestOps)
   + [Список тестовых случаев в проекте](#СписокТестовыхСлучаевВПроекте)
-  + [Запуск Jenkins задач из TestOps](#ЗапускJenkinsЗадачИзTestOps)
+  + [Запуск Jenkins задач из Allure TestOps](#ЗапускJenkinsЗадачИзAllureTestOps)
   + [Dashboards](#Dashboards)
 + [Интеграция с Jira](#ИнтеграцияСJira)
 + [Видео о прохождении тестов](#ВидеоОПрохожденииТестов)
@@ -114,7 +114,7 @@ Allure TestOps предоставляет возможность команда�
 <img src="images/screens/Allure_TestCases.PNG" alt="AllureTestOpsTestCases" width="1050">
 </p>
 
-## <a name="ЗапускJenkinsЗадачИзTestOps">Запуск Jenkins задач из TestOps</a>
+## <a name="ЗапускJenkinsЗадачИзAllureTestOps">Запуск Jenkins задач из Allure TestOps</a>
 В Allure TestOps можно настроить запуск автотестов из Jenkins
 <p  align="center">
 <img src="images/screens/JobConfigureTestOps.PNG" alt="JobConfigureTestOps" width="1050">
