@@ -22,7 +22,7 @@ public class LocalMobileDriver implements WebDriverProvider {
 
     public static URL getAppiumServerUrl() {
         try {
-            return new URL(deviceConfig.appiumURL());
+            return new URL(deviceConfig.baseURL());
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }

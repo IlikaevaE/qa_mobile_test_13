@@ -25,8 +25,8 @@ public class BrowserstackMobileDriver implements WebDriverProvider {
         mutableCapabilities.setCapability("browserstack.user", config.login());
         mutableCapabilities.setCapability("browserstack.key", config.password());
         mutableCapabilities.setCapability("app", config.app());
-        mutableCapabilities.setCapability("device", deviceConfig.deviceValue());
-        mutableCapabilities.setCapability("os_version", deviceConfig.osVersion());
+        mutableCapabilities.setCapability("device", deviceConfig.deviceName());
+        mutableCapabilities.setCapability("os_version", deviceConfig.platformVersion());
         mutableCapabilities.setCapability("project", "Wikipedia");
         mutableCapabilities.setCapability("build", "browserstack-build-1");
         mutableCapabilities.setCapability("name", "wikipedia_test");
@@ -35,7 +35,7 @@ public class BrowserstackMobileDriver implements WebDriverProvider {
 
     public static URL getBrowserstackUrl() {
         try {
-            return new URL(deviceConfig.bs_URL());
+            return new URL(deviceConfig.baseURL());
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
