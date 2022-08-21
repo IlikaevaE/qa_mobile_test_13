@@ -103,5 +103,5 @@ clean android -DdeviceHost=${DEVICEHOST}
 
 # <a name="ВидеоОПрохожденииТестов">Видео о прохождении тестов</a>
 <p align="center">
-<img title="Video Result" src="images/video/mobileVideoResult.gif" width="250" height="153"  alt="video">
+<img title="Video Result" src="images/video/mobileVideoResult.gif" width="300" height="300"  alt="video">
 </p>
