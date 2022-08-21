@@ -102,3 +102,6 @@ clean android -DdeviceHost=${DEVICEHOST}
 # <a name="ИнтеграцияСJira">Интеграция с Jira</a>
 
 # <a name="ВидеоОПрохожденииТестов">Видео о прохождении тестов</a>
+<p align="center">
+<img title="Video Result" src="images/video/mobileVideoResult.mp4" width="250" height="153"  alt="video">
+</p>
