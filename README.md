@@ -96,7 +96,8 @@ clean android -DdeviceHost=${DEVICEHOST}
 <p  align="center">
 <img src="images/screens/AllureReport.PNG" alt="AllureReport" width="800">
 </p>
-Тестовые артефакты: 
+
+#### Тестовые артефакты: 
 
 > - Набор тест кейсов 
 > - Screenshot
@@ -108,7 +109,7 @@ clean android -DdeviceHost=${DEVICEHOST}
 <img src="images/screens/Allure_Report_TestCases.PNG" alt="AllureReportTestCases" width="1050">
 </p>
 
-Отслеживание хода выполнения тестирования в Allure Report: 
+#### Отслеживание хода выполнения тестирования в Allure Report: 
 
 > - STATUS
 > - SEVERITY
