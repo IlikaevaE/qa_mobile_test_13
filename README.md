@@ -98,7 +98,7 @@ clean android -DdeviceHost=${DEVICEHOST}
 </p>
 Список перечисления тестов с описанием шагов
 <p  align="center">
-<img src="images/screens/Allure_Report_TestCases.PNG" alt="AllureReportTestCases" width="1900">
+<img src="images/screens/Allure_ReportTestCases.PNG" alt="AllureReportTestCases" width="1050">
 </p>
 
 <p  align="center">
