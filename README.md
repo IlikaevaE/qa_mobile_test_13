@@ -89,16 +89,16 @@ clean android -DdeviceHost=${DEVICEHOST}
 # <a name="ОповещениеВTelegram">Оповещение в Telegram</a>
 Отправка уведомлений о результатах прохождения тестов осуществляется с помощью Telegram бота. 
 <p  align="center">
-<img src="images/screens/Bot_mobile.PNG" alt="TelegramBot" width="1050">
+<img src="images/screens/Bot_mobile.PNG" alt="TelegramBot" width="600">
 </p>
 
 # <a name="ОтчетОРезультатахПрохожденияТестовВAllureReport">Отчет о результатах прохождения тестов в Allure Report</a>
 <p  align="center">
-<img src="images/screens/AllureReport.PNG" alt="AllureReport" width="1050">
+<img src="images/screens/AllureReport.PNG" alt="AllureReport" width="800">
 </p>
 Список перечисления тестов с описанием шагов
 <p  align="center">
-<img src="images/screens/Allure_Report_TestCases.PNG" alt="AllureReportTestCases" width="1050">
+<img src="images/screens/Allure_Report_TestCases.PNG" alt="AllureReportTestCases" width="800">
 </p>
 
 <p  align="center">
