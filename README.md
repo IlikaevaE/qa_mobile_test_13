@@ -1,6 +1,4 @@
-# Автоматизация тестирования приложений на Android:  
-<p align="center">
-<img width="6%" title="Android Studio" src="images/logo/Wikipedia.png"> Wikipedia
+# Автоматизация тестирования приложений на Android:  <img width="6%" title="Android Studio" src="images/logo/Wikipedia.png"> Wikipedia
 
 > Википедия - общедоступная универсальная интернет-энциклопедия со свободным контентом. 
 
@@ -98,7 +96,7 @@ clean android -DdeviceHost=${DEVICEHOST}
 <p  align="center">
 <img src="images/screens/AllureReport.PNG" alt="AllureReport" width="1050">
 </p>
-
+Список перечисления тестов с описанием шагов
 <p  align="center">
 <img src="images/screens/Allure_Report_TestCases.PNG" alt="AllureReportTestCases" width="1050">
 </p>

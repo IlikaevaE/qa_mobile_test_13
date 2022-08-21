@@ -22,11 +22,11 @@ public class AndroidSearchTests extends TestBase {
     @Story("Проверка  поиска в Wikipedia")
     void searchTestAppium() {
         back();
-        step("Type search", () -> {
+        step("Вводим значение в поле Search", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/search_container")).click();
             $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Appium");
         });
-        step("Verify content found", () ->
+        step("Проверяем, что заданное значение найдено", () ->
                 $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_title"))
                         .shouldHave(sizeGreaterThan(0)));
     }
@@ -37,10 +37,10 @@ public class AndroidSearchTests extends TestBase {
     @Story("Проверка вкладок на стартовой странице Wikipedia")
     void checkSearchTabTest() {
         back();
-        step("Click on search tab", () -> {
+        step("Нажимаем на вкладку Search", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/nav_tab_search")).click();
         });
-        step("Check the opened page", () -> {
+        step("Проверяем, что открылась нужная страница", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/history_title")).shouldHave(Condition.text("History"));
         });
     }
@@ -51,10 +51,10 @@ public class AndroidSearchTests extends TestBase {
     @Story("Проверка вкладок на стартовой странице Wikipedia")
     void checkSavedTabTest() {
         back();
-        step("Click on saved tab", () -> {
+        step("Нажимаем на вкладку Saved", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/nav_tab_reading_lists")).click();
         });
-        step("Check the saved page", () -> {
+        step("Проверяем, что открылась нужная страница", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/positiveButton")).shouldHave(Condition.text("LOG IN / JOIN WIKIPEDIA"));
         });
     }
