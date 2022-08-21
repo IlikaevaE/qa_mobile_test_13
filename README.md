@@ -1,4 +1,7 @@
-# Автоматизация тестирования приложений на Android:  <img width="6%" title="Android Studio" src="images/logo/Wikipedia.png"> Wikipedia
+# Автоматизация тестирования приложений на Android:  
+<p align="center">
+<img width="6%" title="Android Studio" src="images/logo/Wikipedia.png"> Wikipedia
+
 > Википедия - общедоступная универсальная интернет-энциклопедия со свободным контентом. 
 
 # <a name="Содержание">Содержание:</a>
