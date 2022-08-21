@@ -38,16 +38,16 @@ static final RealMobileConfig config = ConfigFactory.create(RealMobileConfig.cla
         options.setDeviceName(config.deviceName());
         options.setPlatformVersion(config.platformVersion());
         options.setApp(app.getAbsolutePath());
-        options.setAppPackage(config.appPackageName());
-        options.setAppActivity(config.appActivity());
+        options.setAppPackage("org.wikipedia.alpha");
+        options.setAppActivity("org.wikipedia.main.MainActivity");
 
         return new AndroidDriver(getAppiumServerUrl(), options);
     }
 
     private File getApp() {
 
-        String appUrl = config.appURL();
-        String appPath = config.appPath();
+        String appUrl = "https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk";
+        String appPath = "src/test/resources/apps/app-alpha-universal-release.apk";
 
         File app = new File(appPath);
         if (!app.exists()) {

@@ -2,6 +2,9 @@ package config;
 
 import org.aeonbits.owner.Config;
 
+@Config.Sources({
+        "classpath:config/real.properties"
+})
 public interface RealMobileConfig extends Config {
     @Key("platform_name")
     String platformName();
@@ -11,18 +14,6 @@ public interface RealMobileConfig extends Config {
 
     @Key("platform_version")
     String platformVersion();
-
-    @Key("appPackageName")
-    String appPackageName();
-
-    @Key("app_Activity")
-    String appActivity();
-
-    @Key("app_URL")
-    String appURL();
-
-    @Key("app_path")
-    String appPath();
 
     @Key("appium_URL")
     String appiumURL();

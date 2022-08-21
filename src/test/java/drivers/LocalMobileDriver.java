@@ -34,20 +34,20 @@ public class LocalMobileDriver implements WebDriverProvider {
         UiAutomator2Options options = new UiAutomator2Options();
         options.merge(capabilities);
         options.setAutomationName(AutomationName.ANDROID_UIAUTOMATOR2);
-        options.setPlatformName(deviceConfig.platformName());
+        options.setPlatformName("Android");
         options.setDeviceName(deviceConfig.deviceName());
         options.setPlatformVersion(deviceConfig.platformVersion());
         options.setApp(app.getAbsolutePath());
-        options.setAppPackage(deviceConfig.appPackageName());
-        options.setAppActivity(deviceConfig.appActivity());
+        options.setAppPackage("org.wikipedia.alpha");
+        options.setAppActivity("org.wikipedia.main.MainActivity");
 
         return new AndroidDriver(getAppiumServerUrl(), options);
     }
 
     private File getApp() {
 
-        String appUrl = deviceConfig.appURL();
-        String appPath = deviceConfig.appPath();
+        String appUrl = "https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk";
+        String appPath = "src/test/resources/apps/app-alpha-universal-release.apk";
 
         File app = new File(appPath);
         if (!app.exists()) {
