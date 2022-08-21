@@ -40,6 +40,8 @@
 </p>
 
 
+# <a name="РеализацияПроверок">Реализация проверок</a>
+
 > Проверка  поиска в Wikipedia
 > 
 > Проверка вкладок на стартовой странице Wikipedia
@@ -80,9 +82,14 @@ baseURL=http://localhost:4723/wd/hub
 >
 
 ## <a name="ЗапускТестовИзJenkins">Запуск тестов из Jenkins</a>
-
-
+```bash
+clean android -DdeviceHost=${DEVICEHOST}
+```
 # <a name="ОповещениеВTelegram">Оповещение в Telegram</a>
+
+<p  align="center">
+<img src="images/screens/Bot_mobile.PNG" alt="IDEARunConfigurations1" width="550">
+</p>
 
 # <a name="ОтчетОРезультатахПрохожденияТестовВAllureReport">Отчет о результатах прохождения тестов в Allure Report</a>
 
@@ -95,13 +102,3 @@ baseURL=http://localhost:4723/wd/hub
 # <a name="ИнтеграцияСJira">Интеграция с Jira</a>
 
 # <a name="ВидеоОПрохожденииТестов">Видео о прохождении тестов</a>
-
-
-
-
-
-## :arrow_forward: _Команда запуска тестов удаленно в Jenkins_
-
-```bash
-clean android -DdeviceHost=${DEVICEHOST}
-```
