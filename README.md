@@ -88,20 +88,20 @@ clean android -DdeviceHost=${DEVICEHOST}
 # <a name="ОповещениеВTelegram">Оповещение в Telegram</a>
 Отправка уведомлений о результатах прохождения тестов осуществляется с помощью Telegram бота. 
 <p  align="center">
-<img src="images/screens/Bot_mobile.PNG" alt="IDEARunConfigurations1" width="550">
+<img src="images/screens/Bot_mobile.PNG" alt="TelegramBot" width="1050">
 </p>
 
 # <a name="ОтчетОРезультатахПрохожденияТестовВAllureReport">Отчет о результатах прохождения тестов в Allure Report</a>
 <p  align="center">
-<img src="images/screens/AllureReport.PNG" alt="job" width="550">
+<img src="images/screens/AllureReport.PNG" alt="AllureReport" width="1050">
 </p>
 
 <p  align="center">
-<img src="images/screens/Allure_Report_TestCases.PNG" alt="IDEARunConfigurations1" width="550">
+<img src="images/screens/Allure_Report_TestCases.PNG" alt="AllureReportTestCases" width="1050">
 </p>
 
 <p  align="center">
-<img src="images/screens/Allure_Graphs.PNG" alt="IDEARunConfigurations1" width="550">
+<img src="images/screens/Allure_Graphs.PNG" alt="AllureGraphs" width="1050">
 </p>
 
 # <a name="ИнтеграцияСAllureTestOps">Интеграция с Allure TestOps</a>
@@ -111,19 +111,19 @@ Allure TestOps предоставляет возможность команда�
 ## <a name="СписокТестовыхСлучаевВПроекте">Список тестовых случаев в проекте</a>
 
 <p  align="center">
-<img src="images/screens/Allure_TestCases.PNG" alt="IDEARunConfigurations1" width="550">
+<img src="images/screens/Allure_TestCases.PNG" alt="AllureTestOpsTestCases" width="1050">
 </p>
 
 ## <a name="ЗапускJenkinsЗадачИзTestOps">Запуск Jenkins задач из TestOps</a>
 В Allure TestOps можно настроить запуск автотестов из Jenkins
 <p  align="center">
-<img src="images/screens/JobConfigureTestOps.PNG" alt="IDEARunConfigurations1" width="550">
+<img src="images/screens/JobConfigureTestOps.PNG" alt="JobConfigureTestOps" width="1050">
 </p>
 
 ## <a name="Dashboards">Dashboards</a>
 
 <p  align="center">
-<img src="images/screens/DashboardMobile.PNG" alt="IDEARunConfigurations1" width="550">
+<img src="images/screens/DashboardMobile.PNG" alt="DashboardMobileTestOps" width="1050">
 </p>
 # <a name="ИнтеграцияСJira">Интеграция с Jira</a>
 
