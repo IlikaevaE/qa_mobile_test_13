@@ -6,6 +6,7 @@ import io.appium.java_client.AppiumBy;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -20,6 +21,7 @@ public class AndroidSearchTests extends TestBase {
     @Tag("android")
     @Feature("Мобильное приложение Wikipedia")
     @Story("Проверка  поиска в Wikipedia")
+    @DisplayName("Проверка поля Search")
     void searchTestAppium() {
         back();
         step("Вводим значение в поле Search", () -> {
@@ -35,6 +37,7 @@ public class AndroidSearchTests extends TestBase {
     @Tag("android")
     @Feature("Мобильное приложение Wikipedia")
     @Story("Проверка вкладок на стартовой странице Wikipedia")
+    @DisplayName("Проверка вкладки Search")
     void checkSearchTabTest() {
         back();
         step("Нажимаем на вкладку Search", () -> {
@@ -49,6 +52,7 @@ public class AndroidSearchTests extends TestBase {
     @Tag("android")
     @Feature("Мобильное приложение Wikipedia")
     @Story("Проверка вкладок на стартовой странице Wikipedia")
+    @DisplayName("Проверка вкладки Saved")
     void checkSavedTabTest() {
         back();
         step("Нажимаем на вкладку Saved", () -> {
