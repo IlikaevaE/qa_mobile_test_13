@@ -151,6 +151,10 @@ Allure TestOps предоставляет возможность команда�
 
 # <a name="ИнтеграцияСJira">Интеграция с Jira</a>
 
+<p  align="center">
+<img src="images/screens/JiraMobile.PNG" alt="JiraMobile" width="1050">
+</p>
+
 # <a name="ВидеоОПрохожденииТестов">Видео о прохождении тестов</a>
 <p align="center">
 <img title="Video Result" src="images/video/MobileVideo.gif" width="300" height="300"  alt="video">
